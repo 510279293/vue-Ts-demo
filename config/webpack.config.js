@@ -27,6 +27,7 @@ module.exports = {
       contentBase: './dist'
     },
     resolve: {
+      extensions: ['.js', '.vue', '.json', '.ts', '.tsx'],
       // 模块别名地址，方便后续直接引用别名，无须写长长的地址，注意如果后续不能识别该别名，需要先设置root
       alias: {
         vue$: 'vue/dist/vue.runtime.esm.js'
